@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pradeep.s\\Desktop\\AuthDemo\\API\\API.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pradeep.s\\Desktop\\AuthDemo\\API\\API.csproj": {
+    "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pradeep.s\\Desktop\\AuthDemo\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\pradeep.s\\Desktop\\AuthDemo\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\pradeep.s\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pradeep.s\\Desktop\\AuthDemo\\API\\obj\\",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pradeep.s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +45,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
