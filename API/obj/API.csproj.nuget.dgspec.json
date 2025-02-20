@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\API.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\API.csproj": {
+    "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\API.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\API\\API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\api\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Auth\\AuthTest\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
