@@ -155,3 +155,5 @@ C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\bin\Debug\net8.0\runtimes\win\l
 C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\obj\Debug\net8.0\API.csproj.Up2Date
+C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -3,6 +3,7 @@ using API.Data;
 using API.DTO;
 using API.Entities;
 using API.Repositories.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Repositories.Imlementaion;
 
@@ -21,23 +22,37 @@ public class ProductRepository : IProductRepository
         return product;
     }
 
-    public Task<Product?> DeleteProductAsync(int id)
+    public async Task<Product?> DeleteProductAsync(int id)
     {
-        throw new NotImplementedException();
+        var existingProduct = await dbContext.Products.FirstOrDefaultAsync(x => x.ID == id);
+        if (existingProduct is null)
+        {
+            return null;
+        }
+        dbContext.Products.Remove(existingProduct);
+        await dbContext.SaveChangesAsync();
+        return existingProduct;
     }
 
-    public Task<IEnumerable<Product>> GetAllProductsAsync()
+    public async Task<IEnumerable<Product>> GetAllProductsAsync()
     {
-        throw new NotImplementedException();
+        return await dbContext.Products.ToListAsync();
     }
 
-    public Task<Product?> GetProductById(int id)
+    public async Task<Product?> GetProductById(int id)
     {
-        throw new NotImplementedException();
+        return await dbContext.Products.FirstOrDefaultAsync(x => x.ID == id);
     }
 
-    public Task<Product?> UpdateProduct(Product product)
+    public async Task<Product?> UpdateProduct(Product product)
     {
-        throw new NotImplementedException();
+        var existingProduct = await dbContext.Products.FirstOrDefaultAsync(x => x.ID == product.ID);
+        if (existingProduct != null)
+        {
+            dbContext.Entry(existingProduct).CurrentValues.SetValues(product);
+            await dbContext.SaveChangesAsync();
+            return product;
+        }
+        return null;
     }
 }
