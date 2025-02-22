@@ -157,3 +157,5 @@ C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\obj\Debug\net8.0\API.csproj.Ass
 C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\obj\Debug\net8.0\API.csproj.Up2Date
 C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\OneDrive\Desktop\Auth\AuthTest\api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
